@@ -1,0 +1,56 @@
+head{background-color: lightblue;}
+body{background-color: lightcyan}
+
+p { font: 200;
+    text-indent:1em;  
+    text-align:justify;
+}
+
+h1 {font: 500;color: blue;font-weight: bolder;text-align: center;
+    font-family: 'Times New Roman', Times, serif}
+p{font:200;text-align: center;}
+
+h2{color: blueviolet;text-align: center;}
+
+div{
+    background-color: lightgray;
+    text-align: center;
+    width: 300px;
+
+    padding: 50px;
+    margin: 20px;
+  }
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 75%;
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.menu {
+  width: 75%;
+  float: center;
+  padding: 15px;
+  border: 1px solid gray
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.main {
+  width: 75%;
+  float: center;
+  background-color: blue
+  padding: 10px;
+  border: 1px solid gray
+}
+
